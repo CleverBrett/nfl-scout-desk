@@ -1,0 +1,60 @@
+{
+  "pulled": "2026-08-19",
+  "season": 2025,
+  "pbp_used": 2025,
+  "source": "nflverse play_by_play_2025.parquet REG + roster_2025.csv for receiver position",
+  "source_url": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2025.parquet",
+  "roster_url": "https://github.com/nflverse/nflverse-data/releases/download/rosters/roster_2025.csv",
+  "n_clubs": 32,
+  "definitions": {
+    "plays": "offensive snaps: season_type==REG and play_type in {pass, run} (kneels/spikes/special excluded)",
+    "shotgun_pct": "mean of nflverse shotgun flag (0/1) on those snaps",
+    "under_center_pct": "1 - shotgun_pct. No pistol column in this PBP file; pistol (if any) is inside the not-shotgun bucket and is therefore counted as under center here \u2014 we cannot split it.",
+    "dropbacks": "pass_attempt==1. nflverse pass_attempt already includes sacks (REG 2025: pa|sack == pa). Not qb_dropback (that also counts scrambles).",
+    "checkdown_pct": "among dropbacks with a target (receiver_player_id present), share where roster position is RB/HB/FB AND air_yards is not null and air_yards <= 1. Receiver position joined from roster_2025.csv on gsis_id; 2025 REG targeted throws all matched.",
+    "rb_target_pct": "targets to RB/HB/FB regardless of air yards, divided by dropbacks",
+    "avg_air_yards": "mean air_yards on targeted throws with non-null air_yards",
+    "starter_qb": "passer_player_name with the most dropbacks for that club",
+    "backup_dropbacks": "dropbacks not by the starter",
+    "starter_epa": "mean epa on starter dropbacks",
+    "backup_epa": "mean epa on backup dropbacks",
+    "backup_gap_epa": "backup_epa - starter_epa (usually negative)",
+    "backup_gap_pts": "only if backup_dropbacks >= 40: clamp(backup_gap_epa * 8, -4.5, 0). The 8 is a crude translation of EPA/dropback into spread points (0.125 EPA/play \u2248 1 point of spread). Clamped to [-4.5, 0] so a backup who outplayed the starter is not priced as a plus. Sample < 40 \u2192 null; do not invent 3.5.",
+    "team_codes": "WSH not WAS; LAR not LA; JAX not JAC. Mapped from nflverse abbreviations."
+  },
+  "league": {
+    "plays": 32941,
+    "shotgun_pct": 0.659,
+    "dropbacks": 18822,
+    "checkdown_pct": 0.1149,
+    "rb_target_pct": 0.1588,
+    "avg_air_yards": 7.855,
+    "targeted": 16699
+  },
+  "teams": {
+    "ARI": {
+      "plays": 1074,
+      "shotgun_pct": 0.7142,
+      "under_center_pct": 0.2858,
+      "dropbacks": 711,
+      "checkdown_pct": 0.129,
+      "rb_target_pct": 0.1744,
+      "avg_air_yards": 7.2123,
+      "starter_qb": "J.Brissett",
+      "starter_dropbacks": 531,
+      "backup_dropbacks": 180,
+      "starter_epa": -0.0113,
+      "backup_epa": 0.0443,
+      "backup_gap_epa": 0.0556,
+      "backup_gap_pts": 0.0,
+      "targeted": 620,
+      "checkdowns": 80,
+      "rb_targets": 124,
+      "backups": [
+        {"name": "K.Murray", "dropbacks": 177},
+        {"name": "K.Slovis", "dropbacks": 2},
+        {"name": "M.Haack", "dropbacks": 1}
+      ]
+    }
+  }
+}
