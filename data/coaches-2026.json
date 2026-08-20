@@ -20,168 +20,80 @@
     "note": "pts = clamp((win_rate-0.5)*2*min(1,n/8), \u00b11) if n>=4 and |win_rate-0.5|>=0.15 else 0. Follows the coach."
   },
   "coaches": {
-    "ARI": {
-      "name": "Mike LaFleur",
-      "since": 2026,
-      "source": "https://www.azcardinals.com/news/cardinals-choose-mike-lafleur-as-new-head-coach-2026"
-    },
-    "ATL": {
-      "name": "Kevin Stefanski",
-      "since": 2026,
-      "source": "https://www.atlantafalcons.com/news/atlanta-falcons-name-kevin-stefanski-head-coach"
-    },
-    "BAL": {
-      "name": "Jesse Minter",
-      "since": 2026,
-      "source": "https://www.baltimoreravens.com/news/jesse-minter-hired-ravens-head-coach-chargers-defensive-coordinator"
-    },
-    "BUF": {
-      "name": "Joe Brady",
-      "since": 2026,
-      "source": "https://www.buffalobills.com/news/joe-brady-agrees-to-terms-to-be-the-next-buffalo-bills-head-coach"
-    },
-    "CAR": {
-      "name": "Dave Canales",
-      "since": 2024,
-      "source": "https://www.panthers.com/news/panthers-agree-to-terms-with-dave-canales-to-become-head-coach"
-    },
-    "CHI": {
-      "name": "Ben Johnson",
-      "since": 2025,
-      "source": "https://www.chicagobears.com/news/bears-hire-ben-johnson-as-head-coach"
-    },
-    "CIN": {
-      "name": "Zac Taylor",
-      "since": 2019,
-      "source": "https://www.bengals.com/news/zac-taylor-named-10th-bengals-head-coach"
-    },
-    "CLE": {
-      "name": "Todd Monken",
-      "since": 2026,
-      "source": "https://www.clevelandbrowns.com/news/todd-monken-named-browns-head-coach"
-    },
-    "DAL": {
-      "name": "Brian Schottenheimer",
-      "since": 2025,
-      "source": "https://www.dallascowboys.com/news/brian-schottenheimer-officially-named-newest-cowboys-head-coach"
-    },
-    "DEN": {
-      "name": "Sean Payton",
-      "since": 2023,
-      "source": "https://www.denverbroncos.com/news/broncos-name-sean-payton-as-head-coach"
-    },
-    "DET": {
-      "name": "Dan Campbell",
-      "since": 2021,
-      "source": "https://www.detroitlions.com/news/lions-agree-to-terms-with-dan-campbell-to-become-team-s-new-head-coach"
-    },
-    "GB": {
-      "name": "Matt LaFleur",
-      "since": 2019,
-      "source": "https://www.packers.com/news/matt-lafleur-named-green-bay-s-15th-head-coach"
-    },
-    "HOU": {
-      "name": "DeMeco Ryans",
-      "since": 2023,
-      "source": "https://www.houstontexans.com/news/houston-texans-hire-demeco-ryans-as-head-coach"
-    },
-    "IND": {
-      "name": "Shane Steichen",
-      "since": 2023,
-      "source": "https://www.colts.com/news/colts-name-philadelphia-eagles-offensive-coordinator-shane-steichen-as-head-coach"
-    },
-    "JAX": {
-      "name": "Liam Coen",
-      "since": 2025,
-      "source": "https://www.jaguars.com/news/jacksonville-jaguars-agree-to-terms-with-liam-coen-to-become-head-coach"
-    },
-    "KC": {
-      "name": "Andy Reid",
-      "since": 2013,
-      "source": "https://www.nfl.com/news/andy-reid-kansas-city-chiefs-make-it-official"
-    },
-    "LV": {
-      "name": "Klint Kubiak",
-      "since": 2026,
-      "source": "https://www.raiders.com/news/klint-kubiak-named-head-coach-of-the-las-vegas-raiders"
-    },
-    "LAC": {
-      "name": "Jim Harbaugh",
-      "since": 2024,
-      "source": "https://www.chargers.com/news/los-angeles-chargers-agree-to-terms-with-jim-harbaugh-as-head-coach"
-    },
-    "LAR": {
-      "name": "Sean McVay",
-      "since": 2017,
-      "source": "https://www.nfl.com/news/los-angeles-rams-hire-sean-mcvay-as-head-coach"
-    },
-    "MIA": {
-      "name": "Jeff Hafley",
-      "since": 2026,
-      "source": "https://www.miamidolphins.com/news/miami-dolphins-agree-to-terms-with-jeff-hafley-as-head-coach"
-    },
-    "MIN": {
-      "name": "Kevin O'Connell",
-      "since": 2022,
-      "source": "https://www.vikings.com/news/minnesota-vikings-name-kevin-o-connell-10th-head-coach-in-franchise-history"
-    },
-    "NE": {
-      "name": "Mike Vrabel",
-      "since": 2025,
-      "source": "https://www.patriots.com/news/patriots-hall-of-famer-mike-vrabel-returns-to-new-england-as-our-16th-head-coach"
-    },
-    "NO": {
-      "name": "Kellen Moore",
-      "since": 2025,
-      "source": "https://www.neworleanssaints.com/news/new-orleans-saints-announce-agreement-with-kellen-moore-to-become-head-coach"
-    },
-    "NYG": {
-      "name": "John Harbaugh",
-      "since": 2026,
-      "source": "https://www.giants.com/news/john-harbaugh-hired-head-coach-new-york-giants-nfl"
-    },
-    "NYJ": {
-      "name": "Aaron Glenn",
-      "since": 2025,
-      "source": "https://www.newyorkjets.com/news/jets-name-aaron-glenn-head-coach"
-    },
-    "PHI": {
-      "name": "Nick Sirianni",
-      "since": 2021,
-      "source": "https://www.philadelphiaeagles.com/news/eagles-announce-nick-sirianni-as-head-coach"
-    },
-    "PIT": {
-      "name": "Mike McCarthy",
-      "since": 2026,
-      "source": "https://www.steelers.com/news/mccarthy-named-17th-head-coach-in-steelers-history"
-    },
-    "SF": {
-      "name": "Kyle Shanahan",
-      "since": 2017,
-      "source": "https://www.49ers.com/news/kyle-shanahan-named-head-coach-of-the-san-francisco-49ers"
-    },
-    "SEA": {
-      "name": "Mike Macdonald",
-      "since": 2024,
-      "source": "https://www.seahawks.com/news/mike-macdonald-named-head-coach-of-the-seattle-seahawks"
-    },
-    "TB": {
-      "name": "Todd Bowles",
-      "since": 2022,
-      "source": "https://www.buccaneers.com/news/bruce-arians-steps-into-new-role-todd-bowles-taking-over-as-bucs-head-coach"
-    },
-    "TEN": {
-      "name": "Robert Saleh",
-      "since": 2026,
-      "source": "https://www.tennesseetitans.com/news/it-s-official-titans-hire-robert-saleh-as-team-s-new-head-coach"
-    },
-    "WSH": {
-      "name": "Dan Quinn",
-      "since": 2024,
-      "source": "https://www.commanders.com/news/dan-quinn-named-washington-commanders-31st-head-coach"
-    }
+    "ARI": {"name": "Mike LaFleur", "since": 2026, "source": "https://www.azcardinals.com/news/cardinals-choose-mike-lafleur-as-new-head-coach-2026"},
+    "ATL": {"name": "Kevin Stefanski", "since": 2026, "source": "https://www.atlantafalcons.com/news/atlanta-falcons-name-kevin-stefanski-head-coach"},
+    "BAL": {"name": "Jesse Minter", "since": 2026, "source": "https://www.baltimoreravens.com/news/jesse-minter-hired-ravens-head-coach-chargers-defensive-coordinator"},
+    "BUF": {"name": "Joe Brady", "since": 2026, "source": "https://www.buffalobills.com/news/joe-brady-agrees-to-terms-to-be-the-next-buffalo-bills-head-coach"},
+    "CAR": {"name": "Dave Canales", "since": 2024, "source": "https://www.panthers.com/news/panthers-agree-to-terms-with-dave-canales-to-become-head-coach"},
+    "CHI": {"name": "Ben Johnson", "since": 2025, "source": "https://www.chicagobears.com/news/bears-hire-ben-johnson-as-head-coach"},
+    "CIN": {"name": "Zac Taylor", "since": 2019, "source": "https://www.bengals.com/news/zac-taylor-named-10th-bengals-head-coach"},
+    "CLE": {"name": "Todd Monken", "since": 2026, "source": "https://www.clevelandbrowns.com/news/todd-monken-named-browns-head-coach"},
+    "DAL": {"name": "Brian Schottenheimer", "since": 2025, "source": "https://www.dallascowboys.com/news/brian-schottenheimer-officially-named-newest-cowboys-head-coach"},
+    "DEN": {"name": "Sean Payton", "since": 2023, "source": "https://www.denverbroncos.com/news/broncos-name-sean-payton-as-head-coach"},
+    "DET": {"name": "Dan Campbell", "since": 2021, "source": "https://www.detroitlions.com/news/lions-agree-to-terms-with-dan-campbell-to-become-team-s-new-head-coach"},
+    "GB": {"name": "Matt LaFleur", "since": 2019, "source": "https://www.packers.com/news/matt-lafleur-named-green-bay-s-15th-head-coach"},
+    "HOU": {"name": "DeMeco Ryans", "since": 2023, "source": "https://www.houstontexans.com/news/houston-texans-hire-demeco-ryans-as-head-coach"},
+    "IND": {"name": "Shane Steichen", "since": 2023, "source": "https://www.colts.com/news/colts-name-philadelphia-eagles-offensive-coordinator-shane-steichen-as-head-coach"},
+    "JAX": {"name": "Liam Coen", "since": 2025, "source": "https://www.jaguars.com/news/jacksonville-jaguars-agree-to-terms-with-liam-coen-to-become-head-coach"},
+    "KC": {"name": "Andy Reid", "since": 2013, "source": "https://www.nfl.com/news/andy-reid-kansas-city-chiefs-make-it-official"},
+    "LV": {"name": "Klint Kubiak", "since": 2026, "source": "https://www.raiders.com/news/klint-kubiak-named-head-coach-of-the-las-vegas-raiders"},
+    "LAC": {"name": "Jim Harbaugh", "since": 2024, "source": "https://www.chargers.com/news/los-angeles-chargers-agree-to-terms-with-jim-harbaugh-as-head-coach"},
+    "LAR": {"name": "Sean McVay", "since": 2017, "source": "https://www.nfl.com/news/los-angeles-rams-hire-sean-mcvay-as-head-coach"},
+    "MIA": {"name": "Jeff Hafley", "since": 2026, "source": "https://www.miamidolphins.com/news/miami-dolphins-agree-to-terms-with-jeff-hafley-as-head-coach"},
+    "MIN": {"name": "Kevin O'Connell", "since": 2022, "source": "https://www.vikings.com/news/minnesota-vikings-name-kevin-o-connell-10th-head-coach-in-franchise-history"},
+    "NE": {"name": "Mike Vrabel", "since": 2025, "source": "https://www.patriots.com/news/patriots-hall-of-famer-mike-vrabel-returns-to-new-england-as-our-16th-head-coach"},
+    "NO": {"name": "Kellen Moore", "since": 2025, "source": "https://www.neworleanssaints.com/news/new-orleans-saints-announce-agreement-with-kellen-moore-to-become-head-coach"},
+    "NYG": {"name": "John Harbaugh", "since": 2026, "source": "https://www.giants.com/news/john-harbaugh-hired-head-coach-new-york-giants-nfl"},
+    "NYJ": {"name": "Aaron Glenn", "since": 2025, "source": "https://www.newyorkjets.com/news/jets-name-aaron-glenn-head-coach"},
+    "PHI": {"name": "Nick Sirianni", "since": 2021, "source": "https://www.philadelphiaeagles.com/news/eagles-announce-nick-sirianni-as-head-coach"},
+    "PIT": {"name": "Mike McCarthy", "since": 2026, "source": "https://www.steelers.com/news/mccarthy-named-17th-head-coach-in-steelers-history"},
+    "SF": {"name": "Kyle Shanahan", "since": 2017, "source": "https://www.49ers.com/news/kyle-shanahan-named-head-coach-of-the-san-francisco-49ers"},
+    "SEA": {"name": "Mike Macdonald", "since": 2024, "source": "https://www.seahawks.com/news/mike-macdonald-named-head-coach-of-the-seattle-seahawks"},
+    "TB": {"name": "Todd Bowles", "since": 2022, "source": "https://www.buccaneers.com/news/bruce-arians-steps-into-new-role-todd-bowles-taking-over-as-bucs-head-coach"},
+    "TEN": {"name": "Robert Saleh", "since": 2026, "source": "https://www.tennesseetitans.com/news/it-s-official-titans-hire-robert-saleh-as-team-s-new-head-coach"},
+    "WSH": {"name": "Dan Quinn", "since": 2024, "source": "https://www.commanders.com/news/dan-quinn-named-washington-commanders-31st-head-coach"}
   },
-  "h2h": [],
+  "h2h": [
+    {"a": "Todd Bowles", "b": "Dan Campbell", "a_abbr": "TB", "b_abbr": "DET", "a_wins": 2, "b_wins": 3, "n": 5, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2015-2025 NYJ/TB vs DET/MIA; playoffs: 1 Div; includes 2015 MIA (Campbell interim) vs NYJ"},
+    {"a": "Todd Bowles", "b": "Dave Canales", "a_abbr": "TB", "b_abbr": "CAR", "a_wins": 3, "b_wins": 1, "n": 4, "book": "SU", "pts_for_a": 0.25, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2024-2025 TB vs CAR"},
+    {"a": "Todd Bowles", "b": "Aaron Glenn", "a_abbr": "TB", "b_abbr": "NYJ", "a_wins": 1, "b_wins": 0, "n": 1, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2025 TB vs NYJ"},
+    {"a": "Todd Bowles", "b": "Jim Harbaugh", "a_abbr": "TB", "b_abbr": "LAC", "a_wins": 1, "b_wins": 0, "n": 1, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2024 TB vs LAC"},
+    {"a": "Todd Bowles", "b": "John Harbaugh", "a_abbr": "TB", "b_abbr": "NYG", "a_wins": 1, "b_wins": 2, "n": 3, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2016-2024 NYJ/TB vs BAL"},
+    {"a": "Todd Bowles", "b": "Matt LaFleur", "a_abbr": "TB", "b_abbr": "GB", "a_wins": 1, "b_wins": 1, "n": 2, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2022-2023 TB vs GB"},
+    {"a": "Todd Bowles", "b": "Mike Macdonald", "a_abbr": "TB", "b_abbr": "SEA", "a_wins": 1, "b_wins": 0, "n": 1, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2025 TB vs SEA"},
+    {"a": "Todd Bowles", "b": "Mike McCarthy", "a_abbr": "TB", "b_abbr": "PIT", "a_wins": 1, "b_wins": 2, "n": 3, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2022-2024 TB vs DAL; playoffs: 1 WC"},
+    {"a": "Todd Bowles", "b": "Sean McVay", "a_abbr": "TB", "b_abbr": "LAR", "a_wins": 1, "b_wins": 1, "n": 2, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2022-2025 TB vs LAR"},
+    {"a": "Todd Bowles", "b": "Kellen Moore", "a_abbr": "TB", "b_abbr": "NO", "a_wins": 1, "b_wins": 1, "n": 2, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2025 TB vs NO"},
+    {"a": "Todd Bowles", "b": "Kevin O'Connell", "a_abbr": "TB", "b_abbr": "MIN", "a_wins": 1, "b_wins": 0, "n": 1, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2023 TB vs MIN"},
+    {"a": "Todd Bowles", "b": "Sean Payton", "a_abbr": "TB", "b_abbr": "DEN", "a_wins": 0, "b_wins": 2, "n": 2, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2017-2024 NYJ/TB vs DEN/NO"},
+    {"a": "Todd Bowles", "b": "Dan Quinn", "a_abbr": "TB", "b_abbr": "WSH", "a_wins": 1, "b_wins": 2, "n": 3, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2017-2024 NYJ/TB vs ATL/WSH; playoffs: 1 WC"},
+    {"a": "Todd Bowles", "b": "Andy Reid", "a_abbr": "TB", "b_abbr": "KC", "a_wins": 1, "b_wins": 3, "n": 4, "book": "SU", "pts_for_a": -0.25, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2016-2024 NYJ/TB vs KC"},
+    {"a": "Todd Bowles", "b": "DeMeco Ryans", "a_abbr": "TB", "b_abbr": "HOU", "a_wins": 1, "b_wins": 1, "n": 2, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2023-2025 TB vs HOU"},
+    {"a": "Todd Bowles", "b": "Kyle Shanahan", "a_abbr": "TB", "b_abbr": "SF", "a_wins": 1, "b_wins": 3, "n": 4, "book": "SU", "pts_for_a": -0.25, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2022-2025 TB vs SF"},
+    {"a": "Todd Bowles", "b": "Nick Sirianni", "a_abbr": "TB", "b_abbr": "PHI", "a_wins": 2, "b_wins": 2, "n": 4, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2023-2025 TB vs PHI; playoffs: 1 WC"},
+    {"a": "Todd Bowles", "b": "Kevin Stefanski", "a_abbr": "TB", "b_abbr": "ATL", "a_wins": 0, "b_wins": 1, "n": 1, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2022 TB vs CLE"},
+    {"a": "Todd Bowles", "b": "Shane Steichen", "a_abbr": "TB", "b_abbr": "IND", "a_wins": 0, "b_wins": 1, "n": 1, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2023 TB vs IND"},
+    {"a": "Todd Bowles", "b": "Zac Taylor", "a_abbr": "TB", "b_abbr": "CIN", "a_wins": 0, "b_wins": 1, "n": 1, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2022 TB vs CIN"},
+    {"a": "Todd Bowles", "b": "Mike Vrabel", "a_abbr": "TB", "b_abbr": "NE", "a_wins": 1, "b_wins": 2, "n": 3, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2018-2025 NYJ/TB vs NE/TEN"},
+    {"a": "Dan Campbell", "b": "John Harbaugh", "a_abbr": "DET", "b_abbr": "NYG", "a_wins": 2, "b_wins": 2, "n": 4, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2015-2025 DET/MIA vs BAL; includes 2015 MIA (Campbell interim) vs BAL"},
+    {"a": "Dan Campbell", "b": "Ben Johnson", "a_abbr": "DET", "b_abbr": "CHI", "a_wins": 2, "b_wins": 0, "n": 2, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2025 DET vs CHI"},
+    {"a": "Dan Campbell", "b": "Matt LaFleur", "a_abbr": "DET", "b_abbr": "GB", "a_wins": 6, "b_wins": 4, "n": 10, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2021-2025 DET vs GB"},
+    {"a": "Dan Campbell", "b": "Mike Macdonald", "a_abbr": "DET", "b_abbr": "SEA", "a_wins": 1, "b_wins": 0, "n": 1, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2024 DET vs SEA"},
+    {"a": "Dan Campbell", "b": "Mike McCarthy", "a_abbr": "DET", "b_abbr": "PIT", "a_wins": 1, "b_wins": 2, "n": 3, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2022-2024 DET vs DAL"},
+    {"a": "Dan Campbell", "b": "Sean McVay", "a_abbr": "DET", "b_abbr": "LAR", "a_wins": 2, "b_wins": 2, "n": 4, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2021-2025 DET vs LAR; playoffs: 1 WC"},
+    {"a": "Dan Campbell", "b": "Kevin O'Connell", "a_abbr": "DET", "b_abbr": "MIN", "a_wins": 5, "b_wins": 3, "n": 8, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2022-2025 DET vs MIN"},
+    {"a": "Dan Campbell", "b": "Sean Payton", "a_abbr": "DET", "b_abbr": "DEN", "a_wins": 1, "b_wins": 0, "n": 1, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2023 DET vs DEN"},
+    {"a": "Dan Campbell", "b": "Dan Quinn", "a_abbr": "DET", "b_abbr": "WSH", "a_wins": 1, "b_wins": 1, "n": 2, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2024-2025 DET vs WSH; playoffs: 1 Div"},
+    {"a": "Dan Campbell", "b": "Andy Reid", "a_abbr": "DET", "b_abbr": "KC", "a_wins": 1, "b_wins": 1, "n": 2, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2023-2025 DET vs KC"},
+    {"a": "Dan Campbell", "b": "DeMeco Ryans", "a_abbr": "DET", "b_abbr": "HOU", "a_wins": 1, "b_wins": 0, "n": 1, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2024 DET vs HOU"},
+    {"a": "Dan Campbell", "b": "Robert Saleh", "a_abbr": "DET", "b_abbr": "TEN", "a_wins": 1, "b_wins": 0, "n": 1, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2022 DET vs NYJ"},
+    {"a": "Dan Campbell", "b": "Brian Schottenheimer", "a_abbr": "DET", "b_abbr": "DAL", "a_wins": 1, "b_wins": 0, "n": 1, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2025 DET vs DAL"},
+    {"a": "Dan Campbell", "b": "Kyle Shanahan", "a_abbr": "DET", "b_abbr": "SF", "a_wins": 1, "b_wins": 2, "n": 3, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2021-2024 DET vs SF; playoffs: 1 CCG"},
+    {"a": "Dan Campbell", "b": "Nick Sirianni", "a_abbr": "DET", "b_abbr": "PHI", "a_wins": 0, "b_wins": 3, "n": 3, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2021-2025 DET vs PHI"},
+    {"a": "Dan Campbell", "b": "Kevin Stefanski", "a_abbr": "DET", "b_abbr": "ATL", "a_wins": 1, "b_wins": 1, "n": 2, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2021-2025 DET vs CLE"},
+    {"a": "Dan Campbell", "b": "Shane Steichen", "a_abbr": "DET", "b_abbr": "IND", "a_wins": 1, "b_wins": 0, "n": 1, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2024 DET vs IND"},
+    {"a": "Dan Campbell", "b": "Zac Taylor", "a_abbr": "DET", "b_abbr": "CIN", "a_wins": 1, "b_wins": 1, "n": 2, "book": "SU", "pts_for_a": 0.0, "source": "https://github.com/nflverse/nfldata/blob/master/data/games.csv", "note": "2021-2025 DET vs CIN"}
+  ],
   "method": {
     "book": "SU",
     "why_not_ats": "No published coach-vs-coach ATS table was found. nflverse games.csv has closing spreads, but this file stores straight-up only so a number is never inferred from SU. Regular season + playoffs; no preseason.",
